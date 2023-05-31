@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Decodificador</title>
     <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -13,11 +14,24 @@
     </header>
 
     <main>
-        
+        <section>
+            <textarea class="textoEntrada" required></textarea>
+        </section>
+        <section class="textoSaida">
+            <input type="text">
+        </section>
+
+        <div class="aviso">
+            <p>Apenas letras minúsculas e sem acento.</p>
+        </div>
+
+        <button class="criptografar" type="button">Criptografar</button>
+        <button class="descriptografar" type="button">Descriptografar</button>
+        <button class="copiar" type="button">Copiar</button>
     </main>
 
     <footer>
-        <p class="copyright">Desenvolvido por Richard Teixeira &copy; 2023</p>
+        <p class="copyright">&copy; Richard Teixeira - Todos os direitos reservados 2023</p>
     </footer>
 </body>
 </html>
